@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP REG103GA-3.3_2K5
+D LDO Voltage Regulators DMOS 500mA LDO Reg
+K
+F https://www.ti.com/lit/gpn/REG103
+$ENDCMP
+#
+#End Doc Library

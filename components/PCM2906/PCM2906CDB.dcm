@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCM2906CDB
+D PCM2906CDB, Audio Encoder and Decoder IC Stereo Audio Stereo-channel 16bit- 48kHz USB 28-Pin SSOP
+K
+F http://www.ti.com/lit/ds/symlink/pcm2906c.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -3084,9 +3084,9 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 259.588 93.472 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 05ac07f1-e36a-4618-bf57-aaa49072b5fd)
-    (property "Reference" "J?" (id 0) (at 259.461 88.392 0))
+    (property "Reference" "J6" (id 0) (at 259.461 88.392 0))
     (property "Value" "External mic. conn." (id 1) (at 259.461 98.933 0))
-    (property "Footprint" "" (id 2) (at 259.588 93.472 0)
+    (property "Footprint" "Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical" (id 2) (at 259.588 93.472 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 259.588 93.472 0)
@@ -3134,13 +3134,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x09") (at 241.808 98.298 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 0da21d48-c73b-400b-8aad-1e22db8c7525)
-    (property "Reference" "J?" (id 0) (at 241.173 85.725 0)
+    (property "Reference" "J5" (id 0) (at 241.173 85.725 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SW_PUSH_3PDT" (id 1) (at 234.696 110.998 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 241.808 98.298 0)
+    (property "Footprint" "Connector_JST:JST_XH_B9B-XH-AM_1x09_P2.50mm_Vertical" (id 2) (at 241.808 98.298 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 241.808 98.298 0)
@@ -3236,7 +3236,7 @@
     (uuid 129f10a1-91c5-4162-926d-17f11fb6da46)
     (property "Reference" "IC2" (id 0) (at 122.555 28.575 0))
     (property "Value" "PCM2906CDB" (id 1) (at 122.555 31.115 0))
-    (property "Footprint" "Package_SO:SOP65P780X200-28N" (id 2) (at 98.425 84.455 0)
+    (property "Footprint" "IC_Downloaded:SOP65P780X200-28N" (id 2) (at 98.425 84.455 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/pcm2906c.pdf" (id 3) (at 98.425 86.995 0)
@@ -3361,7 +3361,7 @@
   (symbol (lib_id "Transistor_FET:BF545B") (at 181.864 109.474 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1d7f83df-1011-45c6-91df-ca070dd19e37)
-    (property "Reference" "Q?" (id 0) (at 178.943 106.172 0)
+    (property "Reference" "Q1" (id 0) (at 178.943 106.172 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "J304" (id 1) (at 177.419 112.776 0)
@@ -3684,7 +3684,7 @@
     (uuid 5d317a70-638c-4b9a-a3aa-1168c8039fe5)
     (property "Reference" "C4" (id 0) (at 86.995 60.325 0))
     (property "Value" "10uF" (id 1) (at 85.725 65.405 0))
-    (property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" (id 2) (at 85.725 61.595 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 85.725 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 85.725 61.595 0)
@@ -4881,7 +4881,7 @@
       (reference "C3") (unit 1) (value "2200uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/5d317a70-638c-4b9a-a3aa-1168c8039fe5"
-      (reference "C4") (unit 1) (value "10uF") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm")
+      (reference "C4") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/6ebfa7eb-bedd-4b70-9303-703f80c384c7"
       (reference "C5") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -4959,7 +4959,7 @@
       (reference "IC1") (unit 1) (value "REG103GA-3.3_2K5") (footprint "IC_Downloaded:SOT127P706X180-6N")
     )
     (path "/129f10a1-91c5-4162-926d-17f11fb6da46"
-      (reference "IC2") (unit 1) (value "PCM2906CDB") (footprint "Package_SO:SOP65P780X200-28N")
+      (reference "IC2") (unit 1) (value "PCM2906CDB") (footprint "IC_Downloaded:SOP65P780X200-28N")
     )
     (path "/fd99694c-3df7-468b-9a79-959510cff011"
       (reference "IC3") (unit 1) (value "INA849DGKT") (footprint "IC_Downloaded:SOP65P490X110-8N")
@@ -4976,14 +4976,14 @@
     (path "/b90387ce-b05c-4012-8cec-49a8fc6db8cb"
       (reference "J4") (unit 1) (value "Vol. knob2 22k") (footprint "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical")
     )
-    (path "/05ac07f1-e36a-4618-bf57-aaa49072b5fd"
-      (reference "J?") (unit 1) (value "External mic. conn.") (footprint "")
-    )
     (path "/0da21d48-c73b-400b-8aad-1e22db8c7525"
-      (reference "J?") (unit 1) (value "SW_PUSH_3PDT") (footprint "")
+      (reference "J5") (unit 1) (value "SW_PUSH_3PDT") (footprint "Connector_JST:JST_XH_B9B-XH-AM_1x09_P2.50mm_Vertical")
+    )
+    (path "/05ac07f1-e36a-4618-bf57-aaa49072b5fd"
+      (reference "J6") (unit 1) (value "External mic. conn.") (footprint "Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical")
     )
     (path "/1d7f83df-1011-45c6-91df-ca070dd19e37"
-      (reference "Q?") (unit 1) (value "J304") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q1") (unit 1) (value "J304") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/f55854b8-4a94-40db-8de4-7fe820a71876"
       (reference "R1") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")

@@ -2842,7 +2842,7 @@
     (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid c7739dc3-40ac-4c34-9aa0-2fb15f7390f8)
   )
-  (text "HP Mic transisitor" (at 158.75 96.774 0)
+  (text "HP Mic transistor" (at 158.75 96.774 0)
     (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid f95f70a1-997d-4cdf-ad04-ac58e59e9efe)
   )

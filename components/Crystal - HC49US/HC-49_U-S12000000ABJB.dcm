@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP HC-49_U-S12000000ABJB
-D Crystals 12MHz 18pF HC49S THROUGH HOLE
-K
-F http://cfd.citizen.co.jp/english/prod-tech/product/pdf/datasheet_AT/HC-49_U-S_E.pdf
-$ENDCMP
-#
-#End Doc Library

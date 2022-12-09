@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "IC_Downloaded")(type "KiCad")(uri "${KIPRJMOD}/components/IC_Downloaded.pretty")(options "")(descr ""))
-)

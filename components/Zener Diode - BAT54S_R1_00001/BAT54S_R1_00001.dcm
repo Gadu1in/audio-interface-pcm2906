@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP BAT54S_R1_00001
-D Schottky Diodes & Rectifiers /L44/TR/7"/HF/3K/SOT-23/SKY/SOT/SSM-02TCS/SSM02-QI10/PJ///
-K
-F https://www.mouser.tw/datasheet/2/1057/BAT54_SERIES-1868754.pdf
-$ENDCMP
-#
-#End Doc Library
